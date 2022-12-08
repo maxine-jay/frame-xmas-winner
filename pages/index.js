@@ -30,14 +30,14 @@ const Home = () => {
     intervalHandle = setInterval(() => {
       const randomPerson = people[Math.floor(Math.random() * people.length)];
       setWinner(randomPerson);
-    }, 100)
+    }, 75)
   }
 
   const chooseWinner = () => {
     randomiseWinner();
-    setTimeout(announceWinner, 3000);
-    console.log("People array ", people);
+    setTimeout(announceWinner, 3500);
   }
+
 
   return (
     <>
