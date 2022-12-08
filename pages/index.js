@@ -11,9 +11,6 @@ const Home = () => {
   const [winner, setWinner] = useState(people[0]);
   const [winnerSelected, setWinnerSelected] = useState(false);
   var intervalHandle = null;
-  const width = "100%";
-  const height= "100%";
-
   const announceWinner = () => {
     clearInterval(intervalHandle);
     setTimeout(() => {
@@ -113,6 +110,24 @@ const initialPeopleList = [
   { name: 'Peter Horne', id: 47},
   { name: 'Peter McFarlane', id: 48},
   { name: 'Raymond Rigby', id: 49},
+  { name: 'Roisin Tolmie', id: 50},
+  { name: 'Ruaridh Maclean', id: 51},
+  { name: 'Simon Parker', id: 52},
+  { name: 'Sophie Finch', id: 53},
+  { name: 'Stacey Lang', id: 54},
+  { name: 'Stephen Cooper', id: 55},
+  { name: 'Stephen McCranor', id: 56},
+  { name: 'Stuart Argue', id: 57},
+  { name: 'Suzanne Bennett', id: 58},
+  { name: 'Duncan Seller', id: 59},
+  { name: 'Stevie McNair', id: 60},
+  { name: 'Roslynn Mackay', id: 61},
+  { name: 'Gill Currie', id: 62},
+  { name: 'Tina Marchetti ', id: 63},
+  //Big Light
+  { name: 'Sean McDonald', id: 64},
+  { name: 'Fiona White', id: 65},
+  { name: 'Janice Forsyth', id: 66},
 
 ]
 export default Home;
