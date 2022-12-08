@@ -27,9 +27,21 @@
 
 .homeHeader {
   font-family: "itc-avant-garde-gothic-pro",sans-serif;
-  font-size: 12rem;
+  font-size: 4rem;
   min-height: 100px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .homeHeader {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1120px) {
+  .homeHeader {
+    font-size: 10rem;
+  }
 }
 
 .flash {
