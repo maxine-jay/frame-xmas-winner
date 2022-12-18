@@ -61,18 +61,14 @@ const Home = () => {
 }
 
 const initialPeopleList = [
-  { name: 'Allison Downs', id: 1 },
   { name: 'Andy Murray', id: 2 },
   { name: 'Anna Quinn', id: 3 },
   { name: 'Brooke Stirling', id: 4 },
   { name: 'Caitlin Connolly', id: 5 },
-  { name: 'Callum Robertson', id: 6 },
   { name: 'Craig Jones', id: 7 },
   { name: 'Daniel Nielsen', id: 8 },
   { name: 'Darren Healy', id: 9 },
-  { name: 'Darryl Broadfoot', id: 10 },
   { name: 'David Calder', id: 11 },
-  { name: 'Eilidh McDonald', id: 12 },
   { name: 'Emma Lees', id: 13 },
   { name: 'Ewan MacGill', id: 14},
   { name: 'Florence Millar', id: 15},
@@ -81,7 +77,6 @@ const initialPeopleList = [
   { name: 'Graeme Thewliss', id: 18},
   { name: 'Graham Ferguson', id: 19},
   { name: 'Hannah Wilson', id: 20},
-  { name: 'Harry Hussain', id: 21},
   { name: 'Heather Dewar', id: 22},
   { name: 'James Henighen', id: 23},
   { name: 'James Moran', id: 24},
@@ -91,7 +86,6 @@ const initialPeopleList = [
   { name: 'John Macfarlane', id: 28},
   { name: 'Katie Brunsmann', id: 29},
   { name: 'Katie Kelly', id: 30},
-  { name: 'Keli Mitchell', id: 31},
   { name: 'Kevin Githwe', id: 32},
   { name: 'Kevin Hickey', id: 33},
   { name: 'Kieran Frew', id: 34},
@@ -116,18 +110,13 @@ const initialPeopleList = [
   { name: 'Sophie Finch', id: 53},
   { name: 'Stacey Lang', id: 54},
   { name: 'Stephen Cooper', id: 55},
-  { name: 'Stephen McCranor', id: 56},
   { name: 'Stuart Argue', id: 57},
   { name: 'Suzanne Bennett', id: 58},
   { name: 'Duncan Seller', id: 59},
   { name: 'Stevie McNair', id: 60},
   { name: 'Roslynn Mackay', id: 61},
   { name: 'Gill Currie', id: 62},
-  { name: 'Tina Marchetti ', id: 63},
-  //Big Light
-  { name: 'Sean McDonald', id: 64},
-  { name: 'Fiona White', id: 65},
-  { name: 'Janice Forsyth', id: 66},
+  { name: 'Tina Marchetti ', id: 63}
 
 ]
 export default Home;
