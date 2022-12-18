@@ -47,7 +47,7 @@ const Home = () => {
       <div className={`${styles.wrapper} ${isSpinning ? styles.spinning : styles.notSpinning}`}>
         {winnerSelected &&
           <Confetti
-            width={window.innerWidth}
+            width={"100%"}
             height={window.innerHeight}
             colors={['#FFFFFF', '#C0C0C0', '#fafafa87', '#fafafa54', '#FFFF00bf', '#ff460773']}
           />
